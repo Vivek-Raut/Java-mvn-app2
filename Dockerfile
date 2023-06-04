@@ -1,4 +1,4 @@
 FROM tomcat:latest
-WORKDIR /home/devopsadmin
-COPY ./workspace/dockerpipeline/target/mvn-hello-world.war /usr/local/tomcat/webapps
+WORKDIR /home/devopsadmin/workspace/dockerpipeline
+COPY ./target/mvn-hello-world.war /usr/local/tomcat/webapps
 
