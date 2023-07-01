@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loksai-deploy
+  name: vivek-deploy
   labels:
     app: loksai-mvn-app
 spec:
